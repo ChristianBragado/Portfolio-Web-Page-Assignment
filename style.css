@@ -1,14 +1,16 @@
+/* Start of my css code 
+using a textured image to create my background.
+ */
+
 body {
   background-image: url("images/grey.jpg");
 }
 
-header div {
-  padding: 40px;
-  text-align: center;
-  background: #E8DCB9;
-}
+/* Creating a sense of seperation from top of header and the rest of the body with background color and styling h1 */
 
-header div {
+body > header > div {
+  padding: 30px;
+  background: #E8DCB9;
   font-family: impact;
   color: #659DBD;
   width: auto;
@@ -17,73 +19,107 @@ header div {
   margin-right: auto;
 }
 
+/* styling h3 as a link with psuedo-classes and using semantic containers to only change this specific link as i will use a slightly different color on my other links */
 
-h3 {
+body > header > div > h3 {
   font-family: monospace, arial;
   color: #BC986A;
   width: auto;
   text-align: center;
 }
 
-img {
-  max-width: 40%;
-  height: auto;
-  border-radius: 20px;
-  margin-left: 500px;
-  margin-right: 200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+body > header > div > h3 > a:link    { color: #BC986A;  }
+body > header > div > h3 > a:visited { color: #BC986A;   }
+body > header > div > h3 > a:hover   { color: lightseagreen; }
+body > header > div > h3 > a:active  { color: whitesmoke;  }
+
+/* adding my favorite drone shot I took in Malibu California as my img because its so peacful =) */
+
+main > div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 60%;
 }
 
-main header h2 {
+/* Styling the first horizontal rules and adding the CSS property of 'height' to make it look a little nicer */
+
+main > div > hr {
+  border: 1px solid #659DBD;
+  height: 1px;
+  width: 1300px;
+}
+
+/* Styling the h2 inside the body while utilizing the proper semantic containers to ensure I only change what I intend to */
+
+main > div > article > section > header > h2 {
+  display: block;
   font-family: cambria;
   color: #659DBD;
   font-weight: bolder;
-  width: auto;
+  width: 70%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-p {
-  font-family: Georgia;
-  color: #BC986A;
-  font-weight: bold;
-  width: auto;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+/* Styling the paragraph and unorganized lists while again using semantic containers for the best creative control */
 
-main ul {
+main > div > article > section > p, ul {
+  display: block;
   font-family: Georgia;
   color: #BC986A;
   font-weight: bold;
-  width: auto;
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-main ol {
+/* using containers to change the organized lists to be slightly different the ul and creating Styled links using pseudo-classes */
+
+main > div > article > section > ol {
+  display: block;
   font-family: 'courier new';
   color:#BC986A;
-  font-weight: bold;
-  width: auto;
+  font-weight: bolder;
+  width: 67%;
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-footer div {
+a:link    { color: #BC986A;  }
+a:visited { color: #BC986A;   }
+a:hover   { color: lightseagreen; }
+a:active  { color: pink;  }
+
+/* second hr */
+
+main > div > article > hr {
+  border: 1px solid #659DBD;
+  height: 1px;
+  width: 1300px;
+}
+
+/* again seperating footer from the rest of the body with a background color and styling the paragraph differently */
+
+body > footer > div > p {
+  display: block;
+  font-family: monospace;
+  color: #BC986A;
+  width: 70%;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body > footer > div {
   padding: 10px;
   background: #E8DCB9;
 }
 
-footer div p {
-  font-family: monospace;
-  color: #BC986A;
-  width: auto;
-  font-weigth: bolder;
-  text-align: left;
-  margin-top: 40px;
-}
+/* end of css code */
