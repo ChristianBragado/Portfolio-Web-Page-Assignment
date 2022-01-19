@@ -1,0 +1,89 @@
+body {
+  background-image: url("images/grey.jpg");
+}
+
+header div {
+  padding: 40px;
+  text-align: center;
+  background: #E8DCB9;
+}
+
+header div {
+  font-family: impact;
+  color: #659DBD;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h3 {
+  font-family: monospace, arial;
+  color: #BC986A;
+  width: auto;
+  text-align: center;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+  margin-left: 500px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+main header h2 {
+  font-family: cambria;
+  color: #659DBD;
+  font-weight: bolder;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: Georgia;
+  color: #BC986A;
+  font-weight: bold;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main ul {
+  font-family: Georgia;
+  color: #BC986A;
+  font-weight: bold;
+  width: auto;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main ol {
+  font-family: 'courier new';
+  color:#BC986A;
+  font-weight: bold;
+  width: auto;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer div {
+  padding: 10px;
+  background: #E8DCB9;
+}
+
+footer div p {
+  font-family: monospace;
+  color: #BC986A;
+  width: auto;
+  font-weigth: bolder;
+  text-align: left;
+  margin-top: 40px;
+}
