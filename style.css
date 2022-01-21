@@ -12,7 +12,8 @@ body > header > div {
   padding: 30px;
   background: #E8DCB9;
   font-family: impact;
-  color: #659DBD;
+  font-size: 20px;
+  color: #0D3B66;
   width: auto;
   text-align: center;
   margin-left: auto;
@@ -21,17 +22,17 @@ body > header > div {
 
 /* styling h3 as a link with psuedo-classes and using semantic containers to only change this specific link as i will use a slightly different color on my other links */
 
-body > header > div > h3 {
+body > header > div > h2 {
   font-family: monospace, arial;
-  color: #BC986A;
+  color: #F95738;
   width: auto;
   text-align: center;
 }
 
-body > header > div > h3 > a:link    { color: #BC986A;  }
-body > header > div > h3 > a:visited { color: #BC986A;   }
-body > header > div > h3 > a:hover   { color: lightseagreen; }
-body > header > div > h3 > a:active  { color: whitesmoke;  }
+body > header > div > h2 > a:link    { color: #F95738;  }
+body > header > div > h2 > a:visited { color: #F95738;   }
+body > header > div > h2 > a:hover   { color: lightseagreen; }
+body > header > div > h2 > a:active  { color: whitesmoke;  }
 
 /* adding my favorite drone shot I took in Malibu California as my img because its so peacful =) */
 
@@ -46,17 +47,18 @@ main > div > img {
 /* Styling the first horizontal rules and adding the CSS property of 'height' to make it look a little nicer */
 
 main > div > hr {
-  border: 1px solid #659DBD;
+  border: 1px solid #0D3B66;
   height: 1px;
   width: 1300px;
 }
 
 /* Styling the h2 inside the body while utilizing the proper semantic containers to ensure I only change what I intend to */
 
-main > div > article > section > header > h2 {
+main > div > article > section > header > h3 {
   display: block;
   font-family: cambria;
-  color: #659DBD;
+  font-size: 26px;
+  color: #F95738;
   font-weight: bolder;
   width: 70%;
   text-align: center;
@@ -69,7 +71,8 @@ main > div > article > section > header > h2 {
 main > div > article > section > p, ul {
   display: block;
   font-family: Georgia;
-  color: #BC986A;
+  font-size: 18px;
+  color: #0D3B66;
   font-weight: bold;
   text-align: left;
   width: 70%;
@@ -82,7 +85,8 @@ main > div > article > section > p, ul {
 main > div > article > section > ol {
   display: block;
   font-family: 'courier new';
-  color:#BC986A;
+  font-size: 18px;
+  color:#0D3B66;
   font-weight: bolder;
   width: 67%;
   text-align: left;
@@ -90,15 +94,15 @@ main > div > article > section > ol {
   margin-right: auto;
 }
 
-a:link    { color: #BC986A;  }
-a:visited { color: #BC986A;   }
+a:link    { color: #0D3B66;  }
+a:visited { color: #0D3B66;   }
 a:hover   { color: lightseagreen; }
 a:active  { color: pink;  }
 
 /* second hr */
 
 main > div > article > hr {
-  border: 1px solid #659DBD;
+  border: 1px solid #0D3B66;
   height: 1px;
   width: 1300px;
 }
@@ -108,7 +112,9 @@ main > div > article > hr {
 body > footer > div > p {
   display: block;
   font-family: monospace;
-  color: #BC986A;
+  font-size: 14px;
+  font-weight: bold;
+  color: #F95738;
   width: 70%;
   font-weight: bolder;
   text-align: left;
