@@ -24,7 +24,7 @@ body > header > div {
 
 body > header > div > h2 {
   font-family: monospace, arial;
-  color: #F95738;
+  color: #B9314F;
   width: auto;
   text-align: center;
 }
@@ -114,7 +114,7 @@ body > footer > div > p {
   font-family: monospace;
   font-size: 14px;
   font-weight: bold;
-  color: #F95738;
+  color: #B9314F;
   width: 70%;
   font-weight: bolder;
   text-align: left;
