@@ -24,13 +24,13 @@ body > header > div {
 
 body > header > div > h2 {
   font-family: monospace, arial;
-  color: #B9314F;
+  color: #F95738;
   width: auto;
   text-align: center;
 }
 
-body > header > div > h2 > a:link    { color: #F95738;  }
-body > header > div > h2 > a:visited { color: #F95738;   }
+body > header > div > h2 > a:link    { color: #B9314F;  }
+body > header > div > h2 > a:visited { color: #B9314F;   }
 body > header > div > h2 > a:hover   { color: lightseagreen; }
 body > header > div > h2 > a:active  { color: whitesmoke;  }
 
